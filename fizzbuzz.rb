@@ -3,7 +3,9 @@ def fizzbuzz(num)
       return "FizzBuzz"
     elseif (num % 5 == 0)
       return "Buzz"
-    else
+    elseif (num % 3 == 0)
       return "Fizz"
+    else
+      return nil
     end
   end
