@@ -1,5 +1,4 @@
-def fizzbuzz(num)
-  do |num|
+def fizzbuzz(num) do
     if (num % 3 == 0) && (num % 5 == 0)
       puts "FizzBuzz"
     elseif (num % 5 == 0)
