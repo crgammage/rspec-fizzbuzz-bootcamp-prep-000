@@ -6,3 +6,5 @@ def fizzbuzz(num)
       puts "Buzz"
     else (x % 3 === 0)
       puts "Fizz"
+    end
+  end
