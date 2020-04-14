@@ -11,7 +11,3 @@ def fizzbuzz(num)
     end
   end
 end
-
-print "Type Fuzzbuzz range? (1-_): "
-max = gets.chomp
-fizzbuzz(max.to_i)
