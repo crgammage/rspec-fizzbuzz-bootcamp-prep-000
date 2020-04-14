@@ -1,10 +1,10 @@
 def fizzbuzz(num)
-  1.upto(max).each do |num|
-    if (num % 3 == 0) && (num % 5 == 0)
+  1.upto(num).each do |x|
+    if (x % 3 == 0) && (x % 5 == 0)
       puts "FizzBuzz"
-    elseif (num % 5 == 0)
+    elseif (x % 5 == 0)
       puts "Buzz"
-    else (num % 3 == 0)
+    else (x % 3 == 0)
       puts "Fizz"
     end
   end
