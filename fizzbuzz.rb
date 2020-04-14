@@ -6,3 +6,4 @@ def fizzbuzz(num)
     else
       puts "Fizz"
     end
+  end
